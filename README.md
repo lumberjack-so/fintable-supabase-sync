@@ -22,6 +22,7 @@ If you can copy, paste, and click around a UI—you can do this! 💪
 
 | What you need         | Why                                      |
 |-----------------------|-------------------------------------------|
+| A **Fintable** account| Grants access to the official Sheet template |
 | A **Supabase** project| The destination database                 |
 | **Service Role Key**  | Needed for full read/write permissions   |
 | A **Google** account  | To own the Sheet and Apps Script          |
@@ -76,11 +77,12 @@ Feel free to tweak columns later—just keep **`account_id`** and **`transaction
 
 ## 3. Prepare your Google Sheet
 
-1. Click this link to open the **Fintable Google Sheet template**: <https://fintable.io/template> *(or the link provided in your Fintable dashboard email).*  
+1. Sign up for Fintable to get their **Fintable Google Sheet template**: <https://fintable.io>. 
 2. In the top-left menu choose **File → Make a copy…** ➜ give it any name you like.  
    This copy is now *yours*; you can edit it freely.
 3. The template already contains `Accounts` and `Transactions` tabs with the correct header rows—no renaming needed.
 4. (Optional) Add or modify a few sample rows so you'll see changes after the first sync.
+5. Configure your bank connections to Fintable and set up categorization rules if you haven't yet.
 
 ---
 
